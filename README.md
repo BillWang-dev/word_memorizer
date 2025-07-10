@@ -38,7 +38,7 @@
 
 **🎯 最简单的使用方式：** 直接下载预编译的可执行文件，无需安装Python环境！
 
-#### 📥 最新版本下载 (v1.1.0)
+#### 📥 最新版本下载 (v1.2)
 
 **Windows用户：**
 - [📥 下载 WordMemorizer-Windows.zip](https://github.com/BillWang-dev/word_memorizer/releases/latest/download/WordMemorizer-Windows.zip)
@@ -210,9 +210,9 @@ python test_installation.py
 
 ## 📊 开发统计
 
-- **总代码量**: ~1000行
-- **核心模块**: 400行 (logic/)
-- **音频引擎**: 350行 (audio/)
+- **总代码量**: ~1200行
+- **核心模块**: 600行 (logic/)
+- **音频引擎**: 200行 (audio/)
 - **GUI界面**: 400行 (ui/)
 
 ## 📄 许可证
