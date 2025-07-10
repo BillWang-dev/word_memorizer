@@ -1,5 +1,7 @@
 {
-  "timestamp": "2025-07-03T23:01:42.006223",
+  "version": "2.0",
+  "timestamp": "2025-07-10T22:17:11.592358",
+  "word_count": 20,
   "words": {
     "abandon": {
       "word": "abandon",
@@ -8,10 +10,18 @@
       "difficulty": 2,
       "review_count": 1,
       "correct_count": 1,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:31:49.079438",
       "next_review": "2025-07-05T11:31:49.079446",
       "easiness_factor": 2.5,
-      "interval": 6
+      "interval": 6,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "e1e6a67f-ba42-4537-b4f5-c8744375b714",
+      "created_at": "2025-07-10T22:16:52.484413",
+      "updated_at": "2025-07-10T22:16:52.484418"
     },
     "abstract": {
       "word": "abstract",
@@ -20,10 +30,18 @@
       "difficulty": 3,
       "review_count": 1,
       "correct_count": 1,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T12:00:59.738401",
       "next_review": "2025-07-05T12:00:59.738418",
       "easiness_factor": 2.5,
-      "interval": 6
+      "interval": 6,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "a11e04b3-ef69-45a1-bff1-558fbb4167d3",
+      "created_at": "2025-07-10T22:16:52.484436",
+      "updated_at": "2025-07-10T22:16:52.484438"
     },
     "academic": {
       "word": "academic",
@@ -32,10 +50,18 @@
       "difficulty": 2,
       "review_count": 1,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:36:19.649656",
       "next_review": "2025-06-30T11:36:19.649671",
       "easiness_factor": 1.96,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "eb69ea4d-19c8-4a8d-b488-b68e9189b062",
+      "created_at": "2025-07-10T22:16:52.484444",
+      "updated_at": "2025-07-10T22:16:52.484446"
     },
     "accelerate": {
       "word": "accelerate",
@@ -44,10 +70,18 @@
       "difficulty": 3,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422518",
       "next_review": "2025-06-29T11:30:34.422519",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "b541dcfb-c570-42e7-b34c-c1efd6a8b1db",
+      "created_at": "2025-07-10T22:16:52.484451",
+      "updated_at": "2025-07-10T22:16:52.484452"
     },
     "accent": {
       "word": "accent",
@@ -56,10 +90,18 @@
       "difficulty": 2,
       "review_count": 1,
       "correct_count": 1,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T12:01:22.287923",
       "next_review": "2025-07-05T12:01:22.287939",
       "easiness_factor": 2.5,
-      "interval": 6
+      "interval": 6,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "60f7ed1a-588c-45d7-8e64-2a371c69a5ca",
+      "created_at": "2025-07-10T22:16:52.484457",
+      "updated_at": "2025-07-10T22:16:52.484459"
     },
     "acceptable": {
       "word": "acceptable",
@@ -68,10 +110,18 @@
       "difficulty": 2,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422526",
       "next_review": "2025-06-29T11:30:34.422527",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "b71a3aec-aada-4e6e-8485-57538f695e6c",
+      "created_at": "2025-07-10T22:16:52.484464",
+      "updated_at": "2025-07-10T22:16:52.484466"
     },
     "access": {
       "word": "access",
@@ -80,10 +130,18 @@
       "difficulty": 2,
       "review_count": 1,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:55:57.258865",
       "next_review": "2025-06-30T11:55:57.258881",
       "easiness_factor": 1.96,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "354bc861-481a-49a4-8554-1250753f4d73",
+      "created_at": "2025-07-10T22:16:52.484471",
+      "updated_at": "2025-07-10T22:16:52.484473"
     },
     "accommodate": {
       "word": "accommodate",
@@ -92,10 +150,18 @@
       "difficulty": 3,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422536",
       "next_review": "2025-06-29T11:30:34.422537",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "47aa8c5c-282c-4dc4-8bd4-2caed809e98a",
+      "created_at": "2025-07-10T22:16:52.484480",
+      "updated_at": "2025-07-10T22:16:52.484483"
     },
     "accompany": {
       "word": "accompany",
@@ -104,22 +170,38 @@
       "difficulty": 2,
       "review_count": 1,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T12:14:27.279408",
       "next_review": "2025-06-30T12:14:27.279448",
       "easiness_factor": 1.96,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "50774397-ba52-4d2e-9fd4-4d0a274bb97e",
+      "created_at": "2025-07-10T22:16:52.484488",
+      "updated_at": "2025-07-10T22:16:52.484490"
     },
     "accomplish": {
       "word": "accomplish",
       "meaning": "完成；实现",
       "pronunciation": "/əˈkʌmplɪʃ/",
       "difficulty": 3,
-      "review_count": 1,
+      "review_count": 2,
       "correct_count": 1,
-      "last_review": "2025-06-29T12:05:20.852191",
-      "next_review": "2025-07-05T12:05:20.852234",
-      "easiness_factor": 2.5,
-      "interval": 6
+      "consecutive_correct": 0,
+      "last_review": "2025-07-10T22:17:11.590418",
+      "next_review": "2025-07-11T22:17:11.590419",
+      "easiness_factor": 1.9,
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "b9d653f4-37db-46cd-9f16-18cc368aab37",
+      "created_at": "2025-07-10T22:16:52.484494",
+      "updated_at": "2025-07-10T22:17:11.590426"
     },
     "accord": {
       "word": "accord",
@@ -128,10 +210,18 @@
       "difficulty": 3,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422547",
       "next_review": "2025-06-29T11:30:34.422548",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "49dcf9dd-6d49-47d9-aa36-5142bbc888cc",
+      "created_at": "2025-07-10T22:16:52.484500",
+      "updated_at": "2025-07-10T22:16:52.484502"
     },
     "account": {
       "word": "account",
@@ -140,10 +230,18 @@
       "difficulty": 1,
       "review_count": 1,
       "correct_count": 1,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:31:12.402534",
       "next_review": "2025-07-05T11:31:12.402575",
       "easiness_factor": 2.5,
-      "interval": 6
+      "interval": 6,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "44b308ce-58fc-4731-942c-f64ff3f072c1",
+      "created_at": "2025-07-10T22:16:52.484506",
+      "updated_at": "2025-07-10T22:16:52.484508"
     },
     "accurate": {
       "word": "accurate",
@@ -152,10 +250,18 @@
       "difficulty": 2,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422555",
       "next_review": "2025-06-29T11:30:34.422556",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "683aa70c-8bd8-4707-ba37-3b80e4866a12",
+      "created_at": "2025-07-10T22:16:52.484512",
+      "updated_at": "2025-07-10T22:16:52.484514"
     },
     "achieve": {
       "word": "achieve",
@@ -164,10 +270,18 @@
       "difficulty": 2,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422558",
       "next_review": "2025-06-29T11:30:34.422559",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "9d391a4e-e761-4d14-bb22-9f4004b28758",
+      "created_at": "2025-07-10T22:16:52.484518",
+      "updated_at": "2025-07-10T22:16:52.484519"
     },
     "acknowledge": {
       "word": "acknowledge",
@@ -176,10 +290,18 @@
       "difficulty": 3,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422561",
       "next_review": "2025-06-29T11:30:34.422562",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "7efcb638-cb05-4941-b113-727ced1886c8",
+      "created_at": "2025-07-10T22:16:52.484524",
+      "updated_at": "2025-07-10T22:16:52.484525"
     },
     "acquire": {
       "word": "acquire",
@@ -188,10 +310,18 @@
       "difficulty": 3,
       "review_count": 1,
       "correct_count": 1,
+      "consecutive_correct": 0,
       "last_review": "2025-06-30T09:24:48.340083",
       "next_review": "2025-07-06T09:24:48.340111",
       "easiness_factor": 2.5,
-      "interval": 6
+      "interval": 6,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "288802a0-f47c-4e33-8a9d-9bd903c1637e",
+      "created_at": "2025-07-10T22:16:52.484529",
+      "updated_at": "2025-07-10T22:16:52.484531"
     },
     "adapt": {
       "word": "adapt",
@@ -200,10 +330,18 @@
       "difficulty": 2,
       "review_count": 1,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T12:01:13.071445",
       "next_review": "2025-06-30T12:01:13.071459",
       "easiness_factor": 1.96,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "0ebc6eaf-8095-437c-87b0-0389f381076f",
+      "created_at": "2025-07-10T22:16:52.484535",
+      "updated_at": "2025-07-10T22:16:52.484537"
     },
     "adequate": {
       "word": "adequate",
@@ -212,10 +350,18 @@
       "difficulty": 2,
       "review_count": 0,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T11:30:34.422572",
       "next_review": "2025-06-29T11:30:34.422572",
       "easiness_factor": 2.5,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "8ce6f66c-e0e8-4fea-a941-135fe4df2fbf",
+      "created_at": "2025-07-10T22:16:52.484542",
+      "updated_at": "2025-07-10T22:16:52.484544"
     },
     "adjacent": {
       "word": "adjacent",
@@ -224,10 +370,18 @@
       "difficulty": 3,
       "review_count": 1,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T12:13:55.562067",
       "next_review": "2025-06-30T12:13:55.562082",
       "easiness_factor": 1.96,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "cb90068e-63b8-4655-a956-54d1fc621a59",
+      "created_at": "2025-07-10T22:16:52.484548",
+      "updated_at": "2025-07-10T22:16:52.484550"
     },
     "adjust": {
       "word": "adjust",
@@ -236,10 +390,18 @@
       "difficulty": 2,
       "review_count": 1,
       "correct_count": 0,
+      "consecutive_correct": 0,
       "last_review": "2025-06-29T12:05:30.589719",
       "next_review": "2025-06-30T12:05:30.589730",
       "easiness_factor": 1.96,
-      "interval": 1
+      "interval": 1,
+      "tags": [],
+      "examples": [],
+      "synonyms": [],
+      "antonyms": [],
+      "word_id": "d857fabd-260b-42fa-b323-882eab84a7e2",
+      "created_at": "2025-07-10T22:16:52.484554",
+      "updated_at": "2025-07-10T22:16:52.484555"
     }
   }
 }
