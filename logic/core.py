@@ -365,7 +365,6 @@ class DataManager:
             'difficulty': difficulty_stats,
             'tags': tag_stats,
             'retention': retention_rates,
-            'daily_progress': self._get_daily_progress(),
             'last_updated': datetime.now().isoformat()
         }
     
@@ -432,29 +431,6 @@ class DataManager:
                 rate = counts['correct'] / counts['total'] * 100
                 retention_rates[interval] = round(rate, 2)
         return retention_rates
-    
-    def _get_daily_progress(self, days: int = 30) -> List[Dict]:
-        daily_data = defaultdict(lambda: {'words': 0, 'correct': 0, 'total': 0})
-        for word_item in self.words.values():
-            if word_item.last_review:
-                date = datetime.fromisoformat(word_item.last_review).date()
-                daily_data[date.isoformat()]['words'] += 1
-        
-        progress_list = []
-        today = datetime.now().date()
-        for i in range(days):
-            date = today - timedelta(days=i)
-            date_str = date.isoformat()
-            data = daily_data.get(date_str, {'words': 0, 'correct': 0, 'total': 0})
-            accuracy = (data['correct'] / data['total'] * 100) if data['total'] > 0 else 0
-            progress_list.append({
-                'date': date_str,
-                'words': data['words'],
-                'correct': data['correct'],
-                'total': data['total'],
-                'accuracy': accuracy
-            })
-        return sorted(progress_list, key=lambda x: x['date'])
     
     def get_word_by_id(self, word_id: str) -> Optional[WordItem]:
         return self.word_id_index.get(word_id)
