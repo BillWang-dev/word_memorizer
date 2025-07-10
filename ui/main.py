@@ -84,7 +84,7 @@ class DictationInterface:
     def _display_next_item(self):
         for widget in self.content_frame.winfo_children():
             widget.destroy()
-        info_text = f"单词听写, 含义:{self.current_item.meaning}"
+        info_text = f"含义:{self.current_item.meaning}"
         if self.current_item.pronunciation:
             info_text += f"\n音标:{self.current_item.pronunciation}"
         ttk.Label(self.content_frame, text = info_text, font = ('Arial', 12), justify=tk.LEFT).pack(anchor=tk.W)
@@ -331,8 +331,8 @@ class StatisticsPanel:
         item_frame = ttk.Frame(parent)
         item_frame.pack(fill = tk.X, pady = 2)
 
-        ttk.Label(item_frame, text = f"{label}:", font = ('Arial', 9)).pack(side=tk.LEFT)
-        ttk.Label(item_frame, text = str(value), font = ('Arial', 9, 'bold')).pack(side = tk.RIGHT)
+        ttk.Label(item_frame, text = f"{label}:", font = ('Arial', 12)).pack(side=tk.LEFT)
+        ttk.Label(item_frame, text = str(value), font = ('Arial', 12, 'bold')).pack(side = tk.RIGHT)
     
 
 #程序入口
