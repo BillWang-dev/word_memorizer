@@ -306,17 +306,21 @@ class StatisticsPanel:
     
     def _create_word_accuracy_chart(self, ax, stats: Dict):
         words = stats.get('words', {})
-
+        
+        # 直接获取原始计数值
+        total_correct = words.get('total_correct_reviews', 0)
+        total_reviewed = words.get('total_reviews', 0)
         word_accuracy = words.get('accuracy', 0)
         word_reviewed = words.get('reviewed', 0)
         word_total = words.get('total', 0)
-
+        # 直接从 stats 中获取最原始、最精确的计数值
+        total_correct = words.get('total_correct_reviews', 0)
+        total_reviewed = words.get('total_reviews', 0)
         if word_reviewed > 0:
-            correct_count = round(word_reviewed * word_accuracy / 100)
-            incorrect_count = word_reviewed - correct_count
-            
+            incorrect_count = total_reviewed - total_correct
+
             labels = ['correct','incorrect']
-            sizes = [correct_count, incorrect_count]
+            sizes = [total_reviewed, incorrect_count]
             colors = ['lightgreen', 'lightcoral']
             ax.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
             ax.set_title(f"word_accuracy ({word_accuracy:.1f}%)")

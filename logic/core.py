@@ -360,7 +360,9 @@ class DataManager:
                 'accuracy': word_stats['accuracy'],
                 'avg_difficulty': word_stats['avg_difficulty'],
                 'avg_interval': word_stats['avg_interval'],
-                'avg_ef': word_stats['avg_ef']
+                'avg_ef': word_stats['avg_ef'],
+                'total_correct_reviews': word_stats['total_correct_reviews'],
+                'total_reviews': word_stats['total_reviews'],
             },
             'difficulty': difficulty_stats,
             'tags': tag_stats,
@@ -389,7 +391,9 @@ class DataManager:
             'accuracy': round(accuracy, 2),
             'avg_difficulty': round(avg_difficulty, 2),
             'avg_interval': round(avg_interval, 2),
-            'avg_ef': round(avg_ef, 2)
+            'avg_ef': round(avg_ef, 2),
+            'total_correct_reviews': total_correct, # <-- 新增：返回原始正确复习总数
+            'total_reviews': total_reviews,       # <-- 新增：返回原始总复习次数
         }
     
     def _get_difficulty_stats(self) -> Dict[int, Dict]:
