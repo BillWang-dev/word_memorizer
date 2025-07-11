@@ -206,7 +206,7 @@ class DictationInterface:
         def play_finished():
             self.play_button.config(text="🔊 播放", state=tk.NORMAL)
         self.play_button.config(text = "播放中...", state = tk.DISABLED)
-        self.listen_engine.play_text(text_to_play, callback=play_finished)
+        self.listen_engine.play_text(text_to_play, callback=play_finished)# 使用listen_engine播放
 
 class StatisticsPanel:
 
@@ -320,7 +320,7 @@ class StatisticsPanel:
             incorrect_count = total_reviewed - total_correct
 
             labels = ['correct','incorrect']
-            sizes = [total_reviewed, incorrect_count]
+            sizes = [total_correct, incorrect_count]
             colors = ['lightgreen', 'lightcoral']
             ax.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
             ax.set_title(f"word_accuracy ({word_accuracy:.1f}%)")

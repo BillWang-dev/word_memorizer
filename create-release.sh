@@ -24,9 +24,6 @@ if [ -n "$(git status --porcelain)" ]; then
 - 创建发布指南和下载链接
 - 优化用户获取方式
 
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>"
 fi
 
 # 创建标签
