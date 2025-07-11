@@ -23,7 +23,7 @@ if [ -n "$(git status --porcelain)" ]; then
 - 添加GitHub Actions多平台自动构建
 - 创建发布指南和下载链接
 - 优化用户获取方式
-
+"
 fi
 
 # 创建标签
