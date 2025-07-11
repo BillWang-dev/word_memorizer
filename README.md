@@ -1,4 +1,4 @@
-![[./assets/主页面.png]]
+![主页面](./assets/主页面.png)
 ![UI树形图](./assets/单词听写页.png)
 ![学习统计页](./assets/学习统计页.png)
 ![应用的UI效果图](./assets/ui-screenshot.png)
